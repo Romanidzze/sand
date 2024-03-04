@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ctime>
+//dota 2 heros picker i love joe bidn
 using namespace std;
 int main()
 {
@@ -35,5 +36,4 @@ int main()
             number++;
         }
     }
-    cout << endl;
 }
