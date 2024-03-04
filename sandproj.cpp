@@ -1,12 +1,13 @@
 #include <iostream>
 #include <ctime>
-//dota 2 heros picker i love joe bidn
+//dota 2 heros picker
 using namespace std;
 int main()
 {
     setlocale(0, "");
     char alphabet[] = "ABCDEFGHIJKLMNOPQRSTVWXYZ";
-    string pers[] = { "Abaddon" }
+    string pers[] = {
+        'Bulbochka', 'Tolkach' };
     srand(time(NULL));
     int index_alpha = rand() % 25;
     int size_pers = sizeof(pers) / 40;
