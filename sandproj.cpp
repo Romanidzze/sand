@@ -1,6 +1,6 @@
 #include <iostream>
 #include <ctime>
-//dota 2 heros picker i love joe bidn
+//dota 2 heros picker
 using namespace std;
 int main()
 {
@@ -13,12 +13,7 @@ int main()
                       "Earth Spirit", "Earthshaker", "Elder Titan", "Ember Spirit", "Enchantress", "Enigma",\
                       "Faceless Void", "Grimstroke", "Gyrocopter", "Hoodwink", "Huskar", "Invoker", "Io", "Jakiro", "Juggernaut",\
                       "Keeper of the Light", "Kunkka", "Legion Commander", "Leshrac", "Lich", "Lifestealer", "Lina", "Lion", "Lone Druid", "Luna", "Lycan",\
-        'Bulbochka'
-                      "Queen of Pain", "Razor", "Riki", "Rubick", "Sand King", "Shadow Demon", "Shadow Fiend",\
-                      "Shadow Shaman", "Silencer", "Skywrath Mage", "Slardar", "Slark", "Sniper", "Spectre", "Spirit Breaker", "Storm Spirit", "Sven",\
-                      "Techies", "Templar Assassin", "Terrorblade", "Tidehunter", "Timbersaw", "Tinker", "Tiny", "Treant Protector", "Troll Warlord", "Tusk",\
-                      "Underlord", "Undying", "Ursa", "Vengeful Spirit", "Venomancer", "Viper", "Visage", "Void Spirit",\
-                      "Warlock", "Weaver", "Windranger", "Winter Wyvern", "Witch Doctor", "Wraith King", "Zeus" };
+        'Bulbochka', 'Tolkach';
     srand(time(NULL));
     int index_alpha = rand() % 25;
     int size_pers = sizeof(pers) / 40;
